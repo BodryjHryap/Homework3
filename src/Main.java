@@ -54,7 +54,7 @@ public class Main {
 
     public static void task4 () {
         System.out.println("Задача 4");
-        byte performancePerMinute = 16/2;
+        byte performancePerMinute = 16 / 2;
         int performancePerDay = performancePerMinute * 60 * 24;
         int performancePerMonth = performancePerDay * 30;
         System.out.println("За 20 минут машина произвела " + performancePerMinute * 20 + " штук бутылок");
@@ -67,7 +67,7 @@ public class Main {
         byte cansOfPaint = 120;
         byte brownPaintOnGrade = 4;
         byte whitePaintOnGrade = 2;
-        int totalGrades = cansOfPaint/(brownPaintOnGrade+whitePaintOnGrade);
+        int totalGrades = cansOfPaint/(brownPaintOnGrade + whitePaintOnGrade);
         int totalBrownPaint = totalGrades * brownPaintOnGrade;
         int totalWhitePaint = totalGrades * whitePaintOnGrade;
         System.out.println("В школе, где " + totalGrades + " классов, нужно " + totalWhitePaint + " банок белой краски и " + totalBrownPaint + " банок коричневой краски");
