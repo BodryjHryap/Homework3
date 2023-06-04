@@ -79,7 +79,11 @@ public class Main {
         byte milkWeight = 105;
         byte iceCreamWeight = 100;
         byte eggsWeight = 70;
-        int totalWeight = bananaWeight * 5 + milkWeight * 2 + iceCreamWeight * 2 + eggsWeight * 4;
+        byte bananaCount = 5;
+        byte milkCount = 2;
+        byte iceCreamCount = 2;
+        byte eggsCount = 4;
+        int totalWeight = bananaWeight * bananaCount + milkWeight * milkCount + iceCreamWeight * iceCreamCount + eggsWeight * eggsCount;
         float totalWeightInKilos = totalWeight/1000F;
         System.out.println("Вес " + totalWeight + " граммов такого спортзавтрака");
         System.out.println("Вес " + totalWeightInKilos + " килограммов такого спортзавтрака");
